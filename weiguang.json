@@ -1,0 +1,7 @@
+{
+ "manifestVersion":1,"name":"SDK 验证小程序","type":"static","endpoint":"/","healthEndpoint":"/healthz",
+ "port":80,"sdkProtocol":1,"capabilities":["identity:read","data:user","files:user"],
+ "deployment":{"buildPack":"static","baseDirectory":"/public"},
+ "data":{"interface":"json-documents-v1","migration":"none","previewIsolation":true},
+ "notes":"验证平台 SDK 在服务器上的个人数据与个人文件。纯静态页面，原生 Coolify Static 以 public 为项目根目录，端口 80；SDK 保留路径由平台网关处理。"
+}
